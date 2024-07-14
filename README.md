@@ -1,8 +1,21 @@
-# React + Vite
+<h1 align="center">Aluraflix</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Descripción del proyecto
 
-Currently, two official plugins are available:
+Este es un proyecto de React que renderiza tarjetas de videos, las cuales se pueden editar, borrar y agregar a una base de datos. Es una aplicación simple que permite gestionar una colección de videos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Características
+
+- Renderizado de tarjetas de videos.
+- Edición de la información de los videos.
+- Borrado de videos.
+- Adición de nuevos videos.
+- Utiliza una base de datos fake para almacenar los datos. [my JSON server]
+
+## Tecnologías Utilizadas
+
+- React
+- styled-components
+- css modules
+- Fetch API
+- my JSON server (para la base de datos)
