@@ -1,0 +1,49 @@
+.cabecera {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2em;
+	background-color: var(--gris);
+	box-sizing: border-box;
+	border-bottom: 3px solid var(--azul);
+}
+
+.logo {
+	height: 40px;
+	display: flex;
+	align-items: center;
+}
+
+.cabecera img {
+	align-self: start;
+}
+
+.botonHome, .botonNuevo {
+	border-radius: 10px;
+	width: 180px;
+	padding: 15px;
+	border-style: solid;
+	border-width: 4px;
+	font-size: 18px;
+	font-weight: bold;
+	color: var(--azul);
+	border-color: var(--azul);
+	background: var(--negro);
+}
+
+.botonNuevo:hover,
+.botonHome:hover {
+	color: var(--blanco);
+	border-color: var(--blanco);
+	background: transparent;
+}
+
+@media (max-width: 768px) {
+	.logo {
+			display: none;
+	}
+
+	nav {
+			display: none;
+	}
+}
